@@ -1,0 +1,160 @@
+2020/01/15-15:22:41.403254 297c RocksDB version: 5.7.3
+2020/01/15-15:22:41.403358 297c Git sha rocksdb_build_git_sha:@acef93ed65f0cab701565a5d21edc1dea894130c@
+2020/01/15-15:22:41.403390 297c Compile date Sep  1 2017
+2020/01/15-15:22:41.403424 297c DB SUMMARY
+2020/01/15-15:22:41.404226 297c SST files in C:\AsyncProjects\kafkatools\word-stat\1_0\rocksdb\KSTREAM-REDUCE-STATE-STORE-0000000003 dir, Total Num: 0, files: 
+2020/01/15-15:22:41.404266 297c Write Ahead Log file in C:\AsyncProjects\kafkatools\word-stat\1_0\rocksdb\KSTREAM-REDUCE-STATE-STORE-0000000003: 
+2020/01/15-15:22:41.404293 297c                         Options.error_if_exists: 0
+2020/01/15-15:22:41.404315 297c                       Options.create_if_missing: 1
+2020/01/15-15:22:41.404334 297c                         Options.paranoid_checks: 1
+2020/01/15-15:22:41.404416 297c                                     Options.env: 0000003BD0C70EC0
+2020/01/15-15:22:41.404428 297c                                Options.info_log: 0000003BD08C7DA0
+2020/01/15-15:22:41.404437 297c                Options.max_file_opening_threads: 16
+2020/01/15-15:22:41.404444 297c                               Options.use_fsync: 0
+2020/01/15-15:22:41.404451 297c                       Options.max_log_file_size: 0
+2020/01/15-15:22:41.404458 297c                  Options.max_manifest_file_size: 18446744073709551615
+2020/01/15-15:22:41.404465 297c                   Options.log_file_time_to_roll: 0
+2020/01/15-15:22:41.404473 297c                       Options.keep_log_file_num: 1000
+2020/01/15-15:22:41.404480 297c                    Options.recycle_log_file_num: 0
+2020/01/15-15:22:41.404487 297c                         Options.allow_fallocate: 1
+2020/01/15-15:22:41.404494 297c                        Options.allow_mmap_reads: 0
+2020/01/15-15:22:41.404501 297c                       Options.allow_mmap_writes: 0
+2020/01/15-15:22:41.404525 297c                        Options.use_direct_reads: 0
+2020/01/15-15:22:41.404532 297c                        Options.use_direct_io_for_flush_and_compaction: 0
+2020/01/15-15:22:41.404539 297c          Options.create_missing_column_families: 0
+2020/01/15-15:22:41.404546 297c                              Options.db_log_dir: 
+2020/01/15-15:22:41.404552 297c                                 Options.wal_dir: C:\AsyncProjects\kafkatools\word-stat\1_0\rocksdb\KSTREAM-REDUCE-STATE-STORE-0000000003
+2020/01/15-15:22:41.404560 297c                Options.table_cache_numshardbits: 6
+2020/01/15-15:22:41.404567 297c                      Options.max_subcompactions: 1
+2020/01/15-15:22:41.404573 297c                  Options.max_background_flushes: 1
+2020/01/15-15:22:41.404580 297c                         Options.WAL_ttl_seconds: 0
+2020/01/15-15:22:41.404587 297c                       Options.WAL_size_limit_MB: 0
+2020/01/15-15:22:41.404594 297c             Options.manifest_preallocation_size: 4194304
+2020/01/15-15:22:41.404601 297c                     Options.is_fd_close_on_exec: 1
+2020/01/15-15:22:41.404608 297c                   Options.advise_random_on_open: 1
+2020/01/15-15:22:41.404614 297c                    Options.db_write_buffer_size: 0
+2020/01/15-15:22:41.404621 297c         Options.access_hint_on_compaction_start: 1
+2020/01/15-15:22:41.404628 297c  Options.new_table_reader_for_compaction_inputs: 0
+2020/01/15-15:22:41.404635 297c               Options.compaction_readahead_size: 0
+2020/01/15-15:22:41.404642 297c           Options.random_access_max_buffer_size: 1048576
+2020/01/15-15:22:41.404649 297c           Options.writable_file_max_buffer_size: 1048576
+2020/01/15-15:22:41.404655 297c                      Options.use_adaptive_mutex: 0
+2020/01/15-15:22:41.404661 297c                            Options.rate_limiter: 0000000000000000
+2020/01/15-15:22:41.404669 297c     Options.sst_file_manager.rate_bytes_per_sec: 0
+2020/01/15-15:22:41.404676 297c                          Options.bytes_per_sync: 0
+2020/01/15-15:22:41.404682 297c                      Options.wal_bytes_per_sync: 0
+2020/01/15-15:22:41.404689 297c                       Options.wal_recovery_mode: 2
+2020/01/15-15:22:41.404698 297c                  Options.enable_thread_tracking: 0
+2020/01/15-15:22:41.404746 297c                  Options.enable_pipelined_write: 0
+2020/01/15-15:22:41.404759 297c         Options.allow_concurrent_memtable_write: 1
+2020/01/15-15:22:41.404766 297c      Options.enable_write_thread_adaptive_yield: 1
+2020/01/15-15:22:41.404773 297c             Options.write_thread_max_yield_usec: 100
+2020/01/15-15:22:41.404780 297c            Options.write_thread_slow_yield_usec: 3
+2020/01/15-15:22:41.404786 297c                               Options.row_cache: None
+2020/01/15-15:22:41.404793 297c                              Options.wal_filter: None
+2020/01/15-15:22:41.404814 297c             Options.avoid_flush_during_recovery: 0
+2020/01/15-15:22:41.404821 297c             Options.allow_ingest_behind: 0
+2020/01/15-15:22:41.404827 297c             Options.concurrent_prepare: 0
+2020/01/15-15:22:41.404834 297c             Options.manual_wal_flush: 0
+2020/01/15-15:22:41.404843 297c             Options.max_background_jobs: 2
+2020/01/15-15:22:41.404850 297c             Options.max_background_compactions: 3
+2020/01/15-15:22:41.404857 297c             Options.avoid_flush_during_shutdown: 0
+2020/01/15-15:22:41.404863 297c             Options.delayed_write_rate : 16777216
+2020/01/15-15:22:41.404870 297c             Options.max_total_wal_size: 0
+2020/01/15-15:22:41.404877 297c             Options.delete_obsolete_files_period_micros: 21600000000
+2020/01/15-15:22:41.404884 297c                   Options.stats_dump_period_sec: 600
+2020/01/15-15:22:41.404891 297c                          Options.max_open_files: -1
+2020/01/15-15:22:41.404898 297c Compression algorithms supported:
+2020/01/15-15:22:41.404919 297c 	Snappy supported: 0
+2020/01/15-15:22:41.404925 297c 	Zlib supported: 0
+2020/01/15-15:22:41.404931 297c 	Bzip supported: 0
+2020/01/15-15:22:41.404938 297c 	LZ4 supported: 0
+2020/01/15-15:22:41.404944 297c 	ZSTD supported: 0
+2020/01/15-15:22:41.404960 297c Fast CRC32 supported: 1
+2020/01/15-15:22:43.813300 297c               Options.comparator: leveldb.BytewiseComparator
+2020/01/15-15:22:43.813323 297c           Options.merge_operator: None
+2020/01/15-15:22:43.813329 297c        Options.compaction_filter: None
+2020/01/15-15:22:43.813338 297c        Options.compaction_filter_factory: None
+2020/01/15-15:22:43.813345 297c         Options.memtable_factory: SkipListFactory
+2020/01/15-15:22:43.813352 297c            Options.table_factory: BlockBasedTable
+2020/01/15-15:22:43.813387 297c            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0000003BD0DD1420)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0000003BD0C2D6E0
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 52428800
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  format_version: 0
+2020/01/15-15:22:43.813394 297c        Options.write_buffer_size: 16777216
+2020/01/15-15:22:43.813402 297c  Options.max_write_buffer_number: 3
+2020/01/15-15:22:43.813408 297c          Options.compression: NoCompression
+2020/01/15-15:22:43.813415 297c                  Options.bottommost_compression: Disabled
+2020/01/15-15:22:43.813422 297c       Options.prefix_extractor: nullptr
+2020/01/15-15:22:43.813429 297c   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2020/01/15-15:22:43.813435 297c             Options.num_levels: 7
+2020/01/15-15:22:43.813441 297c        Options.min_write_buffer_number_to_merge: 1
+2020/01/15-15:22:43.813446 297c     Options.max_write_buffer_number_to_maintain: 0
+2020/01/15-15:22:43.813450 297c            Options.compression_opts.window_bits: -14
+2020/01/15-15:22:43.813454 297c                  Options.compression_opts.level: -1
+2020/01/15-15:22:43.813509 297c               Options.compression_opts.strategy: 0
+2020/01/15-15:22:43.813518 297c         Options.compression_opts.max_dict_bytes: 0
+2020/01/15-15:22:43.813525 297c      Options.level0_file_num_compaction_trigger: 4
+2020/01/15-15:22:43.813531 297c          Options.level0_slowdown_writes_trigger: 20
+2020/01/15-15:22:43.813538 297c              Options.level0_stop_writes_trigger: 36
+2020/01/15-15:22:43.813548 297c                   Options.target_file_size_base: 67108864
+2020/01/15-15:22:43.813554 297c             Options.target_file_size_multiplier: 1
+2020/01/15-15:22:43.813561 297c                Options.max_bytes_for_level_base: 268435456
+2020/01/15-15:22:43.813566 297c Options.level_compaction_dynamic_level_bytes: 0
+2020/01/15-15:22:43.813572 297c          Options.max_bytes_for_level_multiplier: 10.000000
+2020/01/15-15:22:43.813581 297c Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2020/01/15-15:22:43.813588 297c Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2020/01/15-15:22:43.813593 297c Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2020/01/15-15:22:43.813599 297c Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2020/01/15-15:22:43.813605 297c Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2020/01/15-15:22:43.813611 297c Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2020/01/15-15:22:43.813618 297c Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2020/01/15-15:22:43.813624 297c       Options.max_sequential_skip_in_iterations: 8
+2020/01/15-15:22:43.813630 297c                    Options.max_compaction_bytes: 1677721600
+2020/01/15-15:22:43.813636 297c                        Options.arena_block_size: 2097152
+2020/01/15-15:22:43.813642 297c   Options.soft_pending_compaction_bytes_limit: 68719476736
+2020/01/15-15:22:43.813648 297c   Options.hard_pending_compaction_bytes_limit: 274877906944
+2020/01/15-15:22:43.813653 297c       Options.rate_limit_delay_max_milliseconds: 100
+2020/01/15-15:22:43.813660 297c                Options.disable_auto_compactions: 0
+2020/01/15-15:22:43.813668 297c                        Options.compaction_style: kCompactionStyleUniversal
+2020/01/15-15:22:43.813676 297c                          Options.compaction_pri: kByCompensatedSize
+2020/01/15-15:22:43.813682 297c Options.compaction_options_universal.size_ratio: 1
+2020/01/15-15:22:43.813688 297c Options.compaction_options_universal.min_merge_width: 2
+2020/01/15-15:22:43.813695 297c Options.compaction_options_universal.max_merge_width: 4294967295
+2020/01/15-15:22:43.813703 297c Options.compaction_options_universal.max_size_amplification_percent: 200
+2020/01/15-15:22:43.813710 297c Options.compaction_options_universal.compression_size_percent: -1
+2020/01/15-15:22:43.813718 297c Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2020/01/15-15:22:43.813726 297c Options.compaction_options_fifo.max_table_files_size: 1073741824
+2020/01/15-15:22:43.813734 297c Options.compaction_options_fifo.allow_compaction: 0
+2020/01/15-15:22:43.813739 297c Options.compaction_options_fifo.ttl: 0
+2020/01/15-15:22:43.813746 297c                   Options.table_properties_collectors: 
+2020/01/15-15:22:43.813752 297c                   Options.inplace_update_support: 0
+2020/01/15-15:22:43.813759 297c                 Options.inplace_update_num_locks: 10000
+2020/01/15-15:22:43.813766 297c               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2020/01/15-15:22:43.813775 297c   Options.memtable_huge_page_size: 0
+2020/01/15-15:22:43.813782 297c                           Options.bloom_locality: 0
+2020/01/15-15:22:43.813789 297c                    Options.max_successive_merges: 0
+2020/01/15-15:22:43.813795 297c                Options.optimize_filters_for_hits: 0
+2020/01/15-15:22:43.813801 297c                Options.paranoid_file_checks: 0
+2020/01/15-15:22:43.813806 297c                Options.force_consistency_checks: 0
+2020/01/15-15:22:43.813813 297c                Options.report_bg_io_stats: 0
